@@ -8,7 +8,7 @@ from contextlib import redirect_stdout # used to write groups to file
 GITLAB_TOKEN = os.environ['GITLAB_TOKEN']
 
 # authenticate to gitlab instance
-gl = gitlab.Gitlab('https://gitlab.datto.net', GITLAB_TOKEN)
+gl = gitlab.Gitlab('https://gitlab.<url>.net', GITLAB_TOKEN)
 
 group_ids = []
 
