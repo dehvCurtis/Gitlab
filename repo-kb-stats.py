@@ -5,7 +5,7 @@ import os # used to pull GL token from local env var
 
 GITLAB_TOKEN = os.environ['GITLAB_TOKEN']
 
-gl = gitlab.Gitlab('https://gitlab.datto.net', GITLAB_TOKEN)
+gl = gitlab.Gitlab('https://gitlab.<url>.net', GITLAB_TOKEN)
 
 project_list = []
 
